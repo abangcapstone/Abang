@@ -13,7 +13,7 @@ import com.abang.abangapp.car_renter.car_renter;
 public class MainActivity extends AppCompatActivity {
 
     Button btnOwner, btnRenter;
-
+    //HEHEHE
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
