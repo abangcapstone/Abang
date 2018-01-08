@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="com.abang.abangapp.car_owner.car_owner">
+
+
+    <Button
+        android:id="@+id/btnOwner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="112dp"
+        android:text="Owner" />
+
+    <Button
+        android:id="@+id/btnRenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnOwner"
+        android:layout_alignStart="@+id/btnOwner"
+        android:layout_below="@+id/btnOwner"
+        android:layout_marginTop="75dp"
+        android:text="Renter" />
+</RelativeLayout>
