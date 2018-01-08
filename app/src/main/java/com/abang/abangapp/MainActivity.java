@@ -38,8 +38,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-       //gege
-        //XD
+       //hehehe
 
     }
 }
